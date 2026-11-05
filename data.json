@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Nice to meet you.",
+        "Hey! What can I do for you?",
+        "Hello! How are you?"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "What is Python language?",
+        "Tell me about Python"
+      ],
+      "responses": [
+        "Python is a high-level programming language.",
+        "Python is a popular programming language known for its simple syntax.",
+        "Python is widely used in AI, ML, web development and data science."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "My pleasure!",
+        "Happy to help!",
+        "No problem!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you fine?",
+        "How is everything?"
+      ],
+      "responses": [
+        "I'm fine, thank you!",
+        "I'm doing great. How about you?",
+        "I'm good and ready to help you.",
+        "Doing well!"
+      ]
+    },
+    {
+      "tag": "variable",
+      "patterns": [
+        "What is a variable?",
+        "Explain variable",
+        "What are variables?",
+        "Why do we use variables?"
+      ],
+      "responses": [
+        "A variable is used to store a value in a program.",
+        "A variable is a named memory location used to store data.",
+        "Variables allow us to store and use data in a program."
+      ]
+    },
+    {
+      "tag": "loop",
+      "patterns": [
+        "What is a loop?",
+        "Explain loop",
+        "Why are loops used?",
+        "What are loops?"
+      ],
+      "responses": [
+        "A loop is used to execute a block of code repeatedly.",
+        "Loops help us repeat a task multiple times.",
+        "A loop runs a block of code again and again based on a condition."
+      ]
+    }
+  ]
+}
+
